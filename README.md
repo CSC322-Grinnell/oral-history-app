@@ -11,7 +11,9 @@ Make sure you have the following prerequisites:
 
  * Everything from the [installing Rails](https://guides.rubyonrails.org/getting_started.html#installing-rails) section of the Rails guide
  * [Yarn](https://yarnpkg.com/en/)
+ * Install `nvm` and `rvm` helps alot with installing dependencies`
  * On Mathlan run `curl --compressed -o- -L https://yarnpkg.com/install.sh | bash` and `yarn install --check-files`. Make sure you have the right version (1.22.0)
+ 
 
 Run this to generate a new Rails project, substituting your own project name:
 
