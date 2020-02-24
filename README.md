@@ -13,7 +13,7 @@ Make sure you have the following prerequisites:
  * [Yarn](https://yarnpkg.com/en/)
  * Install `nvm` and `rvm` helps alot with installing dependencies`
  * On Mathlan run `curl --compressed -o- -L https://yarnpkg.com/install.sh | bash` and `yarn install --check-files`. Make sure you have the right version (1.22.0)
- * run `rails db:migrate RAILS_ENV=development` if rails server yells at you 
+ * run `rails db:migrate RAILS_ENV=development` if `rails server` yells at you 
 
  
 
