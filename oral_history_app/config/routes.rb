@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'interviews/new'
   root to: "pages#home"
   ActiveAdmin.routes(self)
   devise_for :users

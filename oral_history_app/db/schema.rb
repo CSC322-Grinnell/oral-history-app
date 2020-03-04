@@ -10,7 +10,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_02_17_215054) do
+ActiveRecord::Schema.define(version: 2020_03_04_202914) do
+
+  create_table "interviews", force: :cascade do |t|
+    t.string "name"
+    t.string "date"
+    t.string "interviewer"
+    t.string "location"
+    t.string "summary"
+    t.string "audio_link"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
 
   create_table "users", force: :cascade do |t|
     t.string "email", default: "", null: false
