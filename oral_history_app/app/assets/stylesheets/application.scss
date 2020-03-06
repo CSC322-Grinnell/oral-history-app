@@ -16,3 +16,18 @@ $primary: #D81E05;
     color : red; 
 }*/ 
 @import "bootstrap";
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.tab {
+    margin-left: 40px;
+}
+
+.div-padding{
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
