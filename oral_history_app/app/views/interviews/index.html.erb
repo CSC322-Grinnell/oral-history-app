@@ -1,0 +1,11 @@
+<% provide(:title, 'Archive') %>
+<h1>Archive</h1>
+
+<ul class="interviews">
+  <% @interviews.each do |interview| %>
+    <li>
+      <%= image_for image , size: 50 %>
+      <%= link_to interview.name, interview %>
+    </li>
+  <% end %>
+</ul>
