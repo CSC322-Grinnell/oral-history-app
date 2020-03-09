@@ -1,0 +1,28 @@
+<% provide(:title, 'Interview Submission') %>
+<h1>Interview Submission</h1>
+
+
+<div class="div-padding">
+  <%= form_with do |f| %>
+  <%= f.label :intervieweeName, "Interviewee:" %>
+  <%= f.text_field :intervieweeName %>
+  <br>
+  <%= f.label :interviewerName, "Interviewer:" %>
+  <%= f.text_field :interviewerName %>
+  <br>
+  <%= f.label :audioFile, "Audio File:" %>
+  <%= f.text_field :audioFile %>
+  <br>
+  <%= f.label :summary, "Text Summary:" %>
+  <%= f.text_field :summary %>
+  <br>
+  <%= f.label :transcription, "Interview Transcription:" %>
+  <%= f.text_field :transcription %>
+  <br>
+  
+  
+  <%= f.submit "Submit Interview" %>
+  <% end %>
+</div>
+
+

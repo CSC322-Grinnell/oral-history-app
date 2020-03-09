@@ -19,8 +19,12 @@
           <li class="nav-item mx-3">
             <%= link_to "Admin", admin_root_path, class: 'navbar-link' %>
           </li>
-        <% end %>
-        <li class="nav-item mx-3">
+          <% end %>
+      <li class="nav-item mx-3">
+        <%= link_to "Interview Submission", '/interview_signup', class:
+        'navbar-link' %>
+      </li>
+      <li class="nav-item mx-3">
           <%= link_to "Log out", destroy_user_session_path, method: :delete, class: 'navbar-link' %>
         </li>
       <% else %>
