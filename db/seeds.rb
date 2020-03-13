@@ -5,7 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-#User.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password', admin: true) if Rails.env.development?
+User.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password', admin: true) if Rails.env.development?
 #Interview.create(name: "test", date: "test", interviewer: "test", location: "test", summary: "test", audio_link: "test") if Rails.env.development?
 Interview.create(name: "Test Interview 1", date: "03/18/2020", interviewer: "Harry Potter", location: "Grinnell", summary: "Test Database 1", audio_link: "Audio 1", image: "https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat.png") if Rails.env.development?
 Interview.create(name: "Test Interview 2", date: "03/18/2020", interviewer: "Ron Weasley", location: "Grinnell", summary: "Test Database 2", audio_link: "Audio 2", image: "https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat.png") if Rails.env.development?
