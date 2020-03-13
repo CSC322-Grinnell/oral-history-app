@@ -4,8 +4,9 @@
 <ul class="interviews">
   <% @interviews.each do |interview| %>
     <li>
-      <%= image_for image , size: 50 %>
-      <%= link_to interview.name, interview %>
+      <%= image_for interview%>
+      <%= link_to interview.name + " " + interview.date, interview %>
     </li>
+    <p><%= "summary: " + interview.summary %></li>
   <% end %>
 </ul>
