@@ -22,8 +22,8 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
     </div>
 
     <div class="w3-container">
-      <p><%= "Summary: " + interview.summary %></p>
-      <p><%= "Interviewer: " + interview.interviewer %></p>
+      <p><%= "Summary: " + interview.summary if interview.summary %></p>
+      <p><%= "Interviewer: " + interview.interviewer if interview.interviewer%></p>
       
       <div class="w3-row">
         <div class="w3-col m8 s12">
