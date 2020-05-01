@@ -1,0 +1,39 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+</style>
+<body class="w3-light-grey">
+<div class="w3-col l8 s12">
+<div class="interview-entry">
+    <div class="w3-container">
+      <h3><b><%= @interview.name  %></b></h3>
+      <h5>Title description, <span class="w3-opacity"><%= @interview.date  %></span></h5>
+      <h5><%= @interview.location  %></h5>
+    </div>
+    <img src=<%=@interview.image%> class="center">
+
+    <div class="w3-container">
+      <p class=archive-summary>Summary: <%= @interview.summary %> Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed
+        tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      <p>Listen to the interview</p>
+      <audio
+        controls
+        src=<%= @interview.audio_link  %>>
+            Your browser does not support the
+            <code>audio</code> element.
+    </audio>
+    <p><%= link_to "Download Transcript", @interview.transcript %></p>
+
+      <div class="w3-row">
+        <div class="w3-col m4 w3-hide-small">
+          <p><b>Comments  </b> <span class="w3-tag">0</span></span></p>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+  
