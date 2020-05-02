@@ -1,2 +1,35 @@
-<h1>Interviews#new</h1>
-<p>Find me in app/views/interviews/new.html.erb</p>
+<% provide(:title, 'Interview Submission') %>
+<h1>Interview Submission</h1>
+
+<div style="margin: auto; width: 20%;">
+  <%= form_for(@interview) do |f| %>
+  <%= f.label :name, "Interviewee:" %>
+  <%= f.text_field :name %>
+  <br>
+  <%= f.label :interviewer, "Interviewer:" %>
+  <%= f.text_field :interviewer %>
+  <br>
+  <%= f.label :date, "Date of Interview:" %>
+  <%= f.text_field :date %>
+  <br>
+  <%= f.label :location, "Location of Interview" %>
+  <%= f.text_field :location %>
+  <br>
+  <%= f.label :audio_link, "Audio File:" %>
+  <%= f.text_field :audio_link %>
+  <br>
+  <%= f.label :summary, "Text Summary:" %>
+  <%= f.text_field :summary %>
+  <br>
+  <%= f.label :transcript, "Interview Transcription:" %>
+  <%= f.text_field :transcript %>
+  <br>
+  <%= f.label :image, "Input Image" %>
+  <%= f.text_field :image %> 
+  <br> 
+  <%= f.submit "Submit Interview" %>
+  <% end %>
+ </div>
+
+  
+  

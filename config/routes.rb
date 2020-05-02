@@ -8,6 +8,6 @@ Rails.application.routes.draw do
   get  '/contact', to: 'pages#contact'
   get  '/interviews', to:'interviews#index'
   resources :interviews
-  get  '/interview_signup', to: 'pages#interview_signup'
+  get  '/interview_signup', to: 'interviews#new'
   
 end

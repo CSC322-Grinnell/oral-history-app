@@ -4,13 +4,9 @@
 
 /* forms */ 
 
-input, textarea, select, .uneditable-input {
- border: 1 px solid #bbb; 
- width: 100%; 
- margin-bottom: 15 px; 
- @include box_sizing; 
-}
-
-input {
- height: auto !important;
+.form-center{
+ margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
 } 
