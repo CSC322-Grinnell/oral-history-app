@@ -1,7 +1,7 @@
 class InterviewsController < ApplicationController 
 
 def show 
- @show = Interview.find(params[:id])
+ @interview = Interview.find(params[:id])
 end 
 
 def new
@@ -17,6 +17,10 @@ def create
   render 'new'
   end 
 end
+
+def index
+    @interviews = Interview.all
+  end
 
 def interview_params
 	params.require(:interview).permit(:name, :interviewer, :date, :location, :summary, :transcript, :audio_link, :image)
