@@ -58,5 +58,5 @@ gem 'activeadmin'
 gem 'bootstrap', '~> 4.1'
 gem 'jquery-rails'
 gem 'mini_racer'
-
+gem 'sqlite3'
 
