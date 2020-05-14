@@ -5,7 +5,16 @@ See https://grinnell-oral-history.herokuapp.com/ for the currently deployed vers
 
 ## Project Background ##
 
-This repository contains a PROTOTYPE of a tool designed by a team students in CSC 324 for the use of Professor Abram (A.J.) Lewis of the Grinnell College GWSS department. Until this tool is completed, the LGBT Oral Histories of Central Iowa project by Professor Lewis and his students will continue to be hosted at the Wordpress site https://lgbtoralhistories.sites.grinnell.edu/, which has limitations in terms of security and audio file quality and does not offer the desired layout options. We are tasked with building a more secure and user-friendly website to host the interviews of LGBT Iowans and related data. In addition to the Wordpress site, we were provided with http://oralhistory.nypl.org/neighborhoods/trans-history as an example of the kind of display and interaction AJ wants from the Interviews page, with some differences listed in the To-Do section below. 
+This repository contains a PROTOTYPE of a tool designed by a team students in CSC 324 for the use of Professor Abram (A.J.) Lewis of the Grinnell College GWSS department. Until this tool is completed, the LGBT Oral Histories of Central Iowa project by Professor Lewis and his students will continue to be hosted at the Wordpress site https://lgbtoralhistories.sites.grinnell.edu/, which has limitations in terms of security and audio file quality and does not offer the desired layout options. We are tasked with building a more secure and user-friendly website to host the interviews of LGBT Iowans and related data.
+
+## Resources ##
+
+In addition to the Wordpress site, we were provided with http://oralhistory.nypl.org/neighborhoods/trans-history as an example of the kind of display and interaction AJ wants from the Interviews page, with some differences listed in the To-Do section below. 
+
+We used the Rails Starter Kit.
+
+We also used the Learn Enough Ruby to be Dangerous Tutorial by Hartl (4th Ed.)
+
 
 
 ## Foundational Goals ##
