@@ -5,7 +5,7 @@ See https://grinnell-oral-history.herokuapp.com/ for the currently deployed vers
 
 ## Project Background ##
 
-This repository contains a PROTOTYPE of a tool designed by a team students in CSC 324 for the use of Professor Abram (A.J.) Lewis of the Grinnell College GWSS department.
+This repository contains a PROTOTYPE of a tool designed by a team students in CSC 324 for the use of Professor Abram (A.J.) Lewis of the Grinnell College GWSS department. Prior to the start of this class, the LGBT Oral Histories of Central Iowa project by Professor Lewis and his students was hosted at the Wordpress site https://lgbtoralhistories.sites.grinnell.edu/.
 
 
 ## Goals ##
