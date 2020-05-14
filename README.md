@@ -8,7 +8,7 @@ See https://grinnell-oral-history.herokuapp.com/ for the currently deployed vers
 This repository contains a PROTOTYPE of a tool designed by a team students in CSC 324 for the use of Professor Abram (A.J.) Lewis of the Grinnell College GWSS department. Until this tool is completed, the LGBT Oral Histories of Central Iowa project by Professor Lewis and his students will continue to be hosted at the Wordpress site https://lgbtoralhistories.sites.grinnell.edu/, which has limitations in terms of security and audio file quality. We are tasked with building a more secure and user-friendly website to host the interviews of LGBT Iowans and related data. In addition to the Wordpress site, we were provided with http://oralhistory.nypl.org/neighborhoods/trans-history as an example of the kind of display and interaction AJ wants from the Interviews page, with some differences listed in the To-Do section below. 
 
 
-## Goals ##
+## Foundational Goals ##
  - Create a well-formatted static website with separate pages for the Home, About, Contact, and Interviews and individual display pages for each Interview's associated metadata such as Interviewer name, Location of interview, etc. NOTE: The Home page should not display any faces of individuals, but the Interview/Archive page should display them as thumbnails. 
  - Initiate a role-based authentication system for permitting users/admins to contribute to the website.
  - Design a database model for interviews to be stored on the site.
@@ -20,16 +20,16 @@ This repository contains a PROTOTYPE of a tool designed by a team students in CS
   - A map of Iowa that visually displays the geographic distribution of interviews.
  - Thoroughly document and test features such that future teams may continue development.
 
-### To-Do ###
+### Immediate To-Do List ###
 
 Cosmetic changes to the Interviews (Archive) page to match AJ's ideal look
 - multi-column/grid display
-- less metadata visible for each interview tile (only the name)
+- less metadata visible for each interview tile (only the interviewee name should appear and no tags or description--note this is different from the NYC Trans Oral History Project example)
 
 More robust testing for website pages and form
  - See /test
 
-A mobile-friendly view
+A mobile-friendly view for each static webpage
 
 A restricted-access portion of the site accessible only to specific users
  - Build on top of active admin
@@ -37,8 +37,6 @@ A restricted-access portion of the site accessible only to specific users
 A site-wide sort and search feature
  - May involve incorporating tags for interviews
  - These tags should not be created by logged-out users
-
-Potentially: a display that incorporates interview location, such as a map
 
 ## Getting started ##
 
