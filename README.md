@@ -20,13 +20,6 @@ This repository contains a PROTOTYPE of a tool designed by a team students in CS
   - A map of Iowa that visually displays the geographic distribution of interviews.
  - Thoroughly document and test features such that future teams may continue development.
 
-#### Completed ###
-Installed Rails Starter Kit
- - Created Active Admin Login and Dashboard
-Static pages
-Deployed on Heroku
-
-
 ### To-Do ###
 
 Cosmetic changes to the Interviews (Archive) page to match AJ's ideal look
