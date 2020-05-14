@@ -61,7 +61,15 @@ rails install
 
 ### New Gems ###
 
-The new gems we use include : ADD TO THIS SECTION
+The new gems we use include : 
+```
+gem 'devise': authentication solution for Rails
+gem 'activeadmin': creating backends for website administration
+gem 'bootstrap': frontend framework
+gem 'jquery-rails': JQuery for Rails
+gem 'mini_racer': Embed the V8 JavaScript interpreter into Ruby
+```
+All other gems are commented in Gemfile
 
 You can run the server with this command:
 
