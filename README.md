@@ -5,7 +5,16 @@ See https://grinnell-oral-history.herokuapp.com/ for the currently deployed vers
 
 ## Project Background ##
 
+This repository contains a PROTOTYPE of a tool designed by a team students in CSC 324 for the use of Professor Abram (A.J.) Lewis of the Grinnell College GWSS department.
+
+
 ## Goals ##
+
+#### Completed ###
+Installed Rails Starter Kit
+ - Created Active Admin Login and Dashboard
+Static pages: Home, Interviews, 
+Deployed on Heroku
 
 
 ### To-Do ###
