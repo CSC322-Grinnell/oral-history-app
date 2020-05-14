@@ -13,7 +13,7 @@ In addition to the Wordpress site, we were provided with http://oralhistory.nypl
 
 We used the Rails Starter Kit to get started with the static webpages and login. You can access the documentation here: https://github.com/CSC322-Grinnell/rails_starter_kit?fbclid=IwAR1vbWUv3Jx6c_TUMjKJz8vCV3ItRNGIlQCVHFpS9b2yix0u05PdTEBc2pI if you are added to the CSC-322 Group.
 
-We also used the Learn Enough Ruby to be Dangerous Tutorial by Hartl (4th Ed.)
+We also used the Learn Enough Ruby to be Dangerous Tutorial by Hartl (4th Ed.), the resource for 324  Homework assignments, in order to implement our model and form. This may soon be out of date for future iterations of the class, but can provide insight into our process.
 
 
 
