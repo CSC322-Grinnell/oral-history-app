@@ -9,16 +9,16 @@ This repository contains a PROTOTYPE of a tool designed by a team students in CS
 
 
 ## Goals ##
-Create a well-formatted static website.
-Initiate a role-based authentication system for permitting users/admins to contribute to the website.
-Design a database model for interviews to be stored on the site.
-Add a search function for users to search interviews by relevant fields (names, dates, etc.).
-Create a basic, closed tagging system to sort/filter interviews.
-Design a mechanism through which users may add interviews to the site.
-Possibly pursue further website functionality, such as:
-A system to restrict access to certain interviews to specific users of the site.
-A map of Iowa that visually displays the geographic distribution of interviews.
-Thoroughly document and test features such that future teams may continue development.
+ - Create a well-formatted static website.
+ - Initiate a role-based authentication system for permitting users/admins to contribute to the website.
+ - Design a database model for interviews to be stored on the site.
+ - Add a search function for users to search interviews by relevant fields (names, dates, etc.).
+ - Create a basic, closed tagging system to sort/filter interviews.
+ - Design a mechanism through which users may add interviews to the site.
+ - Possibly pursue further website functionality, such as:
+  - A system to restrict access to certain interviews to specific users of the site.
+  - A map of Iowa that visually displays the geographic distribution of interviews.
+ - Thoroughly document and test features such that future teams may continue development.
 
 #### Completed ###
 Installed Rails Starter Kit
