@@ -13,7 +13,7 @@ This repository contains a PROTOTYPE of a tool designed by a team students in CS
 #### Completed ###
 Installed Rails Starter Kit
  - Created Active Admin Login and Dashboard
-Static pages: Home, Interviews, 
+Static pages
 Deployed on Heroku
 
 
