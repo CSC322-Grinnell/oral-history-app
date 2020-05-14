@@ -24,7 +24,7 @@ We also used the Learn Enough Ruby to be Dangerous Tutorial by Hartl (4th Ed.)
  - Design a database model for interviews to be stored on the site -- COMPLETED using Hartl Tutorial
  - Add a search function for users to search interviews by relevant fields (names, dates, etc.).
  - Create a basic, closed tagging system to sort/filter interviews.
- - Design a mechanism through which users may add interviews to the site -- COMPLETED
+ - Design a mechanism through which users may add interviews to the site -- COMPLETED using Hartl Tutorial
  - Possibly pursue further website functionality, such as:
   - A system to restrict access to certain interviews to specific users of the site.
   - A map of Iowa that visually displays the geographic distribution of interviews.
