@@ -68,4 +68,4 @@ You can run the server with this command:
 ```
 rails server
 ```
-You may be asked to update Yarn if it is not installed and up-to-date already. Visit http://localhost:3000 in your browser to see the site!
+You may be asked to update Yarn if it is not installed and up-to-date already (If MathLAN gives you trouble, be in touch with your instructor and ITS). Visit http://localhost:3000 in your browser to see the site!
