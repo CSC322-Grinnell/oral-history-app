@@ -1,5 +1,5 @@
 # LGBT Oral Histories of Central Iowa Website #
-## CSC 324 Software Development, Grinnell College ##
+## For CSC 324 Software Development, Grinnell College ##
 
 See https://grinnell-oral-history.herokuapp.com/ for the currently deployed version of this project.
 
