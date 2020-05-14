@@ -9,7 +9,7 @@ This repository contains a PROTOTYPE of a tool designed by a team students in CS
 
 ## Resources ##
 
-In addition to the Wordpress site, we were provided with http://oralhistory.nypl.org/neighborhoods/trans-history as an example of the kind of display and interaction AJ wants from the Interviews page, with some differences listed in the To-Do section below. 
+In addition to the Wordpress site, we were provided with http://oralhistory.nypl.org/neighborhoods/trans-history as an example of the kind of display and interaction AJ wants from the Interviews page (not the homepage, which should be faceless), with some differences listed in the To-Do section below. 
 
 We used the Rails Starter Kit to get started with the static webpages and login. You can access the documentation here: https://github.com/CSC322-Grinnell/rails_starter_kit?fbclid=IwAR1vbWUv3Jx6c_TUMjKJz8vCV3ItRNGIlQCVHFpS9b2yix0u05PdTEBc2pI if you are added to the CSC-322 Group.
 
