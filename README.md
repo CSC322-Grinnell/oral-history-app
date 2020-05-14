@@ -10,12 +10,12 @@ This repository contains a PROTOTYPE of a tool designed by a team students in CS
 
 ## Foundational Goals ##
  - Create a well-formatted static website with separate pages for the Home, About, Contact, and Interviews NOTE: The Home page should not display any faces of individuals, but the Interview/Archive page should display them as thumbnails -- IN PROGRESS, see Heroku link
- - Create individual display pages for each Interview's associated metadata such as Interviewer name, Location of interview, etc. -- COMPLETE using Hartl Learn Enough to Be Dangerous Tutorial 4th Ed.
- - Initiate a role-based authentication system for permitting users/admins to contribute to the website -- COMPLETE via Installation of Rails Starter Kit with active admin
- - Design a database model for interviews to be stored on the site -- COMPLETE
+ - Create individual display pages for each Interview's associated metadata such as Interviewer name, Location of interview, etc. -- COMPLETED using Hartl Learn Enough to Be Dangerous Tutorial 4th Ed.
+ - Initiate a role-based authentication system for permitting users/admins to contribute to the website -- COMPLETED via Installation of Rails Starter Kit with active admin
+ - Design a database model for interviews to be stored on the site -- COMPLETED using Hartl Tutorial
  - Add a search function for users to search interviews by relevant fields (names, dates, etc.).
  - Create a basic, closed tagging system to sort/filter interviews.
- - Design a mechanism through which users may add interviews to the site -- COMPLETE
+ - Design a mechanism through which users may add interviews to the site -- COMPLETED
  - Possibly pursue further website functionality, such as:
   - A system to restrict access to certain interviews to specific users of the site.
   - A map of Iowa that visually displays the geographic distribution of interviews.
